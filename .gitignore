@@ -1,0 +1,12 @@
+venv/
+
+database/
+
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+git lfs track "*.dll"
+*.log
+
+.env
