@@ -1,0 +1,6 @@
+Model,Precision,Recall,F1-Score,Specificity,NPV,Log Loss
+LogisticRegression,0.833,0.556,0.667,0.968,0.882,0.258
+XGBoost,0.833,0.556,0.667,0.968,0.882,0.331
+SVM,0.714,0.556,0.625,0.935,0.879,0.328
+RandomForest,1.0,0.333,0.5,1.0,0.838,0.278
+KNN,0.75,0.333,0.462,0.968,0.833,1.167
