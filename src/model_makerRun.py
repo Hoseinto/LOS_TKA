@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from model_maker import ModelSelector  
 
-df = pd.read_csv("D:/LOS/database/processed/encoded_dataset.csv")  
+df = pd.read_csv("E:/LOS_TKA/database/processed/encoded_dataset.csv")  
 
 X = df.drop("Prolonged_LOS_Yes", axis=1)
 y = df["Prolonged_LOS_Yes"]
